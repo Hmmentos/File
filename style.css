@@ -30,20 +30,17 @@ p {
   opacity: 0.9;
 }
 
-.pixel-btn {
-  margin-top: 24px;
-  padding: 14px 22px;
-  font-size: 1rem;
-  font-family: 'Pixelify Sans', cursive;
-  color: white;
-  background: #ff6b81;
-  border: 3px solid #ffb3c1;
-  border-radius: 12px;
-  box-shadow: 0 6px 0 #c4455f;
+.play-img-btn {
+  width: 200px;             
+  max-width: 80vw;
+  margin-top: 25px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.15s ease;
 }
 
-.pixel-btn:active {
-  transform: translateY(4px);
-  box-shadow: 0 2px 0 #c4455f;
+.play-img-btn:active {
+  transform: scale(0.92);
 }
+
 
