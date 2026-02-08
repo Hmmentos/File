@@ -30,13 +30,20 @@ p {
   opacity: 0.9;
 }
 
-button {
-  margin-top: 20px;
+.pixel-btn {
+  margin-top: 24px;
   padding: 14px 22px;
-  font-size: 1.1rem;
-  border-radius: 30px;
-  border: none;
-  background: #ff6b81;
+  font-size: 1rem;
+  font-family: 'Pixelify Sans', cursive;
   color: white;
-  cursor: pointer;
+  background: #ff6b81;
+  border: 3px solid #ffb3c1;
+  border-radius: 12px;
+  box-shadow: 0 6px 0 #c4455f;
 }
+
+.pixel-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #c4455f;
+}
+
