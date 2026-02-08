@@ -31,6 +31,15 @@
       window.location.href = "letter.html";
     }
   </script>
+     function goNext() {
+    window.location.href = "letter.html";
+  }
 
+  window.onload = () => {
+    setTimeout(() => {
+      document.getElementById("playBtn").classList.add("pulse");
+    }, 600);
+  };
+</script>
 </body>
 </html>
