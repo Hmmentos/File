@@ -1,0 +1,42 @@
+body.intro {
+  margin: 0;
+  height: 100vh;
+  background-image: url("pixel-bg.jpg"); /* YOUR OWN image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-content {
+  background: rgba(0,0,0,0.35);
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  width: 90%;
+  max-width: 360px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+button {
+  margin-top: 20px;
+  padding: 14px 22px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+  background: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
