@@ -4,7 +4,7 @@ body.intro {
   background-image: url("pixel-bg.jpg"); /* YOUR OWN image */
   background-size: cover;
   background-position: center;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Pixelify Sans', cursive;
   display: flex;
   justify-content: center;
   align-items: center;
