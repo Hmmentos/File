@@ -30,17 +30,26 @@ p {
   opacity: 0.9;
 }
 
+@keyframes pulseZoom {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
 .play-img-btn {
   width: 200px;             
   max-width: 80vw;
   margin-top: 25px;
   cursor: pointer;
   user-select: none;
+
+  animation: pulseZoom 1.8s ease-in-out infinite;
   transition: transform 0.15s ease;
 }
 
 .play-img-btn:active {
   transform: scale(0.92);
+  animation: none;
 }
 
 
