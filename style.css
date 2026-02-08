@@ -52,4 +52,8 @@ p {
   animation: none;
 }
 
+.play-img-btn.pulse {
+  animation: pulseZoom 1.8s ease-in-out infinite;
+}
+
 
