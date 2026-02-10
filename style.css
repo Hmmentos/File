@@ -66,10 +66,21 @@ p {
 .folder {
   text-align: center;
   cursor: pointer;
+  user-select: none;
 }
 
 .folder img {
-  width: 70px;
+  width: 80px;
+  image-rendering: pixelated;
+}
+
+.folder p {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+.folder:active {
+  transform: scale(0.95);
 }
 
 .folder.used {
