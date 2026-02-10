@@ -1,5 +1,5 @@
 function openFolder(folder, link) {
-  const id = folder.innerText;
+  const id = folder.querySelector("p").innerText;
   localStorage.setItem(id, "opened");
 
   folder.classList.add("used");
@@ -11,7 +11,7 @@ function openFolder(folder, link) {
 
 window.onload = () => {
   document.querySelectorAll(".folder").forEach(folder => {
-    const id = folder.innerText;
+    const id = folder.querySelector("p").innerText;
     if (localStorage.getItem(id)) {
       folder.classList.add("used");
     }
