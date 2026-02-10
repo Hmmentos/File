@@ -56,4 +56,25 @@ p {
   animation: pulseZoom 1.8s ease-in-out infinite;
 }
 
+.folders {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.folder {
+  text-align: center;
+  cursor: pointer;
+}
+
+.folder img {
+  width: 70px;
+}
+
+.folder.used {
+  opacity: 0.4;
+  filter: grayscale(100%);
+  pointer-events: none;
+}
 
