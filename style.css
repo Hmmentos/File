@@ -91,11 +91,14 @@ p {
 
 .back-arrow {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 16px;
+  left: 16px;
 
-  width: 48px;
+  width: 28px;                 /* SMALL icon size */
   image-rendering: pixelated;
+
+  padding: 12px;               /* BIG tap area */
+  box-sizing: content-box;
 
   cursor: pointer;
   user-select: none;
