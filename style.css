@@ -89,18 +89,25 @@ p {
   pointer-events: none;
 }
 
-.back-btn {
-  margin-top: 25px;
-  padding: 10px 20px;
-  font-size: 0.9rem;
-  border-radius: 20px;
-  border: none;
-  background: rgba(255, 255, 255, 0.25);
-  color: white;
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  width: 48px;
+  image-rendering: pixelated;
+
   cursor: pointer;
-  font-family: 'Pixelify Sans', cursive;
+  user-select: none;
+
+  opacity: 0.85;
+  z-index: 999;
+
+  transition: transform 0.15s ease, opacity 0.15s ease;
 }
 
-.back-btn:active {
-  transform: scale(0.95);
+.back-arrow:active {
+  transform: scale(0.9);
+  opacity: 1;
 }
+
