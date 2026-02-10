@@ -95,18 +95,13 @@ p {
   left: 16px;
 
   width: 28px;                 /* SMALL icon size */
-  image-rendering: pixelated;
-
-  padding: 12px;               /* BIG tap area */
-  box-sizing: content-box;
-
+  padding: 12px;
+  
+  image-rendering: pixelated; /* BIG tap area */
   cursor: pointer;
-  user-select: none;
-
-  opacity: 0.85;
-  z-index: 999;
-
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  
+  opacity: 1;
+  z-index: 9999;
 }
 
 .back-arrow:active {
