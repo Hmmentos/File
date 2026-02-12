@@ -109,3 +109,37 @@ p {
   opacity: 1;
 }
 
+/* Photo memory layout */
+.photo-wrapper {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.photo-title {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.photo-text {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-top: 8px;
+}
