@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Surprise 💖</title>
+  <title>Our Photo Memory 💕</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="intro">
+
+  <!-- Back Arrow -->
   <img
-  src="back-arrow.png"
-  alt="Back"
-  class="back-arrow"
-  onclick="goBack()"
-/>
+    src="back-arrow.png"
+    alt="Back"
+    class="back-arrow"
+    onclick="goBack()"
+  />
 
-  <div class="intro-content">
-    <p>This is just a small reminder…</p>
-    <h1>I’m really glad it’s you 💕</h1>
+  <div class="photo-wrapper">
 
-    <button class="back-btn" onclick="goBack()">← Back</button>
+    <h1 class="photo-title">OUR PHOTO MEMORY</h1>
+
+    <div class="photo-grid">
+      <img src="pic1.jpg">
+      <img src="pic2.jpg">
+      <img src="pic3.jpg">
+      <img src="pic4.jpg">
+
+      <img src="pic5.jpg">
+      <img src="pic6.jpg">
+      <img src="pic7.jpg">
+      <img src="pic8.jpg">
+    </div>
+
+    <p class="photo-text">These still make me smile 💕</p>
+
   </div>
 
   <script>
@@ -27,7 +42,6 @@
       window.location.href = "desktop.html";
     }
   </script>
-  </div>
+
 </body>
 </html>
-
