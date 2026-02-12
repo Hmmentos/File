@@ -90,11 +90,11 @@ p {
 
 .back-arrow {
   position: fixed;
-  top: 16px;
-  left: 16px;
+  top: 14px;
+  left: 14px;
 
-  width: 28px;                 /* SMALL icon size */
-  padding: 12px;
+  width: 34px;                 /* SMALL icon size */
+  padding: 14px;
   
   image-rendering: pixelated; /* BIG tap area */
   cursor: pointer;
@@ -112,15 +112,22 @@ p {
 .photo-wrapper {
   width: 100%;
   max-width: 360px;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 60px auto 30px;
+  padding: 0 12px;
   text-align: center;
 }
 
 .photo-title {
-  font-size: 1.3rem;
-  margin-bottom: 12px;
-  letter-spacing: 1px;
+  font-size: 1.45rem;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+
+  font-family: 'Pixelify Sans', cursive;
+  color: #ffffff;
+
+  text-shadow:
+    2px 2px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .photo-grid {
@@ -138,7 +145,16 @@ p {
 }
 
 .photo-text {
-  font-size: 1rem;
-  opacity: 0.9;
-  margin-top: 8px;
+  margin-top: 16px;
+  
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+
+  font-family: 'Pixelify Sans', cursive;
+  color: #ffffff;
+
+  text-shadow:
+  2px 2px 0 #000;
+  
+  opacity: 1;
 }
